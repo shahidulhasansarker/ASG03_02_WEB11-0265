@@ -11,17 +11,18 @@
 
 </head>
 <body>
-    <header>
+    <header class="bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]">
         <nav class="flex justify-around py-4">
+            <!-- Navbar Logo -->
             <div>
                 <img src="images/logo-header.png" alt="">
             </div>
             <!-- Navbar link -->
             <div>
-                <ul class="hidden md:flex gap-4 text-2xl">
-                    <li>Product</li>
-                    <li>Services</li>
-                    <li>Contact us</li>
+                <ul class="hidden md:flex gap-4 text-xl">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
                 </ul>
             </div>
             <!-- Navbar Button & Icons -->
@@ -43,17 +44,28 @@
                         <button class="bg-[#88C057] px-6 py-1 rounded-lg text-white">Register</button>
                     </div>
              </div>
+             <!-- Menubar for Mobile Device -->
              <div class="md:hidden text-green-500 py-1.5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-                  
-            </div>
-            
+                  </svg>  
+            </div>    
         </nav>
+        <!-- Horizontal Line for Mobile Devices -->
         <div class="md:hidden">
-            <hr class="md:border border-green-700">
+            <hr class="md:border border-2 border-green-500">
         </div>
+
+        <!-- Banner Section -->
+         <section class="place-items-center py-2">
+            <h1 class="text-4xl font-bold text-center max-w-sm md:max-w-lg">
+                Freshness <span class="text-[#179800]">You Can Count</span> On, Prices You’ll Love!
+            </h1>
+            <p class="text-gray-400 text-center py-2 max-w-sm md:max-w-lg">
+                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+            </p>
+            <img class="md:w-1/2" src="images/hero-vegetables.png" alt="">
+         </section>
         
 
     </header>
